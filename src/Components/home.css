@@ -1,0 +1,94 @@
+.container {
+  display: block;
+  margin: 4rem auto;
+  width: 800px;
+}
+
+.heading {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 24px;
+  color: #212529;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 5px 8px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 3px;
+  }
+
+.buttons .add-user-btn {
+  padding: 6px 12px;
+  display: inline-block;
+  background-color: #0462c7;
+  color: #fff;
+  border-radius: 3px;
+}
+
+/*--- table------------ */
+
+table,
+td,
+th {
+  border: 1px solid #dee2e6;
+  border-collapse: collapse;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.table th,
+.table td {
+  padding: 0.4rem 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.email-cell{
+    width: 18rem;
+}
+/* --- buttons ------- */
+.view-btn {
+  background-color: #0462c7;
+  margin-right: 0.3rem;
+}
+
+.edit-btn {
+  background-color: rgb(25, 235, 235);
+  margin-right: 0.3rem;
+}
+
+.delete-btn {
+  background-color: crimson;
+  margin-right: 0.3rem;
+}
+
+
+/* avatar */
+
+.avatar{
+    height: 2rem;
+    width: 2rem;
+}
